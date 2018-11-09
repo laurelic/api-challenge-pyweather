@@ -1,6 +1,10 @@
 
 # Calling Open Weather...
 
+![umbrella](assets/wim-van-t-einde-787842-unsplash.jpg)
+
+Photo by [Wim van 't Einde](https://unsplash.com/photos/uj7eb7CgqRk?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/search/photos/weather?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+
 Utilizing the Open Weather API on July 18, 2018, data surverying 557 random cities was compiled on humidity%, temperature (F), cloud%, and wind speed (mph). In surveying the data, there (unsurprisingly) appeared to be a correlation between latitude and temperature. When visualized in as scatter plot, the points formed a curve similar to a standard distribution with the Tropic of Cancer (23°26ʹ Latitude) at the center. Temperature tended to decrease the further latitude position the city fell from this point. This makes sense considering that the data was compiled during the Northern Hemisphere summer.
 
 Cloud cover based on Latitude was a striking visualization. Latitude did not appear to have a strong influence on cloudiness, rather it raised questions about how cloud cover it measured. When compared to the visuals of humidity and wind speed, which both are rather nebulous, cloud levels seemed to bucket in particular % levels. The resulting image appeared to be a series of lines with scattered points between them. These "lines" of data populated around 0%, 20%, 40%, 75%, and 90%. Since cloud cover is generally measured in oktas, which is on a scale of 0-8, it follows that visualzations would populate along particular lines.
